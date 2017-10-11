@@ -11,6 +11,6 @@
   },
   "license": "MIT",
   "dependencies": {
-    "ffi": "^2.2.0"
+    "ffi": "file:./node-ffi"
   }
 }

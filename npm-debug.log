@@ -1,0 +1,110 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'ffi',
+1 verbose cli   '-g',
+1 verbose cli   '--registry=https://github.com/yillkid/node-ffi' ]
+2 info using npm@3.5.2
+3 info using node@v4.7.2
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readGlobalPackageData
+7 silly fetchPackageMetaData ffi
+8 silly fetchNamedPackageData ffi
+9 silly mapToRegistry name ffi
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://github.com/yillkid/node-ffi
+12 silly mapToRegistry uri https://github.com/yillkid/node-ffi/ffi
+13 verbose request uri https://github.com/yillkid/node-ffi/ffi
+14 verbose request no auth needed
+15 info attempt registry request try #1 at 7:47:32 AM
+16 verbose request id 7a265bce62b0646c
+17 http request GET https://github.com/yillkid/node-ffi/ffi
+18 http 404 https://github.com/yillkid/node-ffi/ffi
+19 verbose headers { date: 'Mon, 09 Oct 2017 07:47:33 GMT',
+19 verbose headers   'content-type': 'application/json; charset=utf-8',
+19 verbose headers   'transfer-encoding': 'chunked',
+19 verbose headers   server: 'GitHub.com',
+19 verbose headers   status: '404 Not Found',
+19 verbose headers   'cache-control': 'no-cache',
+19 verbose headers   vary: 'X-PJAX',
+19 verbose headers   'x-ua-compatible': 'IE=Edge,chrome=1',
+19 verbose headers   'set-cookie':
+19 verbose headers    [ 'logged_in=no; domain=.github.com; path=/; expires=Fri, 09 Oct 2037 07:47:33 -0000; secure; HttpOnly',
+19 verbose headers      '_gh_sess=eyJzZXNzaW9uX2lkIjoiY2ZlYWE1YWNjMGUwNTYxMjc4Njg0OGZhNzRkMzQ5MjEiLCJsYXN0X3JlYWRfZnJvbV9yZXBsaWNhcyI6MTUwNzUzNTI1MzEwMywicmVmZXJyYWxfY29kZSI6Imluc3RhbGwgZmZpIn0%3D--80e8026034cef3b3fab94137aed4ed5291748eec; path=/; secure; HttpOnly' ],
+19 verbose headers   'x-request-id': 'b0c5996604134c40f527cb8beffa3cad',
+19 verbose headers   'x-runtime': '0.005969',
+19 verbose headers   'content-security-policy': 'default-src \'none\'; base-uri \'self\'; connect-src \'self\'; form-action \'self\'; img-src data:; script-src \'self\'; style-src \'unsafe-inline\'',
+19 verbose headers   'strict-transport-security': 'max-age=31536000; includeSubdomains; preload',
+19 verbose headers   'public-key-pins': 'max-age=5184000; pin-sha256="WoiWRyIOVNa9ihaBciRSC7XHjliYS9VwUGOIud4PB18="; pin-sha256="RRM1dGqnDFsCJXBTHky16vi1obOlCgFFn/yOhI/y+ho="; pin-sha256="k2v657xBsOVe1PQRwOsHsw3bsGT2VzIqz5K+59sNQws="; pin-sha256="K87oWBWM9UZfyddvDfoxL+8lpNyoUB2ptGtn0fv6G2Q="; pin-sha256="IQBnNBEiFuhj+8x6X8XLgh01V9Ic5/V3IRQLNFFc7v4="; pin-sha256="iie1VXtL7HzAMF+/PVPR9xzT80kQxdZeJ+zduCB3uj0="; pin-sha256="LvRiGEjRqfzurezaWuj8Wie2gyHMrW5Q06LspMnox7A="; includeSubDomains',
+19 verbose headers   'x-content-type-options': 'nosniff',
+19 verbose headers   'x-frame-options': 'deny',
+19 verbose headers   'x-xss-protection': '1; mode=block',
+19 verbose headers   'x-runtime-rack': '0.011672',
+19 verbose headers   'content-encoding': 'gzip',
+19 verbose headers   'x-github-request-id': 'E2B6:8857:1A1AE656:274FDE45:59DB2994' }
+20 silly get cb [ 404,
+20 silly get   { date: 'Mon, 09 Oct 2017 07:47:33 GMT',
+20 silly get     'content-type': 'application/json; charset=utf-8',
+20 silly get     'transfer-encoding': 'chunked',
+20 silly get     server: 'GitHub.com',
+20 silly get     status: '404 Not Found',
+20 silly get     'cache-control': 'no-cache',
+20 silly get     vary: 'X-PJAX',
+20 silly get     'x-ua-compatible': 'IE=Edge,chrome=1',
+20 silly get     'set-cookie':
+20 silly get      [ 'logged_in=no; domain=.github.com; path=/; expires=Fri, 09 Oct 2037 07:47:33 -0000; secure; HttpOnly',
+20 silly get        '_gh_sess=eyJzZXNzaW9uX2lkIjoiY2ZlYWE1YWNjMGUwNTYxMjc4Njg0OGZhNzRkMzQ5MjEiLCJsYXN0X3JlYWRfZnJvbV9yZXBsaWNhcyI6MTUwNzUzNTI1MzEwMywicmVmZXJyYWxfY29kZSI6Imluc3RhbGwgZmZpIn0%3D--80e8026034cef3b3fab94137aed4ed5291748eec; path=/; secure; HttpOnly' ],
+20 silly get     'x-request-id': 'b0c5996604134c40f527cb8beffa3cad',
+20 silly get     'x-runtime': '0.005969',
+20 silly get     'content-security-policy': 'default-src \'none\'; base-uri \'self\'; connect-src \'self\'; form-action \'self\'; img-src data:; script-src \'self\'; style-src \'unsafe-inline\'',
+20 silly get     'strict-transport-security': 'max-age=31536000; includeSubdomains; preload',
+20 silly get     'public-key-pins': 'max-age=5184000; pin-sha256="WoiWRyIOVNa9ihaBciRSC7XHjliYS9VwUGOIud4PB18="; pin-sha256="RRM1dGqnDFsCJXBTHky16vi1obOlCgFFn/yOhI/y+ho="; pin-sha256="k2v657xBsOVe1PQRwOsHsw3bsGT2VzIqz5K+59sNQws="; pin-sha256="K87oWBWM9UZfyddvDfoxL+8lpNyoUB2ptGtn0fv6G2Q="; pin-sha256="IQBnNBEiFuhj+8x6X8XLgh01V9Ic5/V3IRQLNFFc7v4="; pin-sha256="iie1VXtL7HzAMF+/PVPR9xzT80kQxdZeJ+zduCB3uj0="; pin-sha256="LvRiGEjRqfzurezaWuj8Wie2gyHMrW5Q06LspMnox7A="; includeSubDomains',
+20 silly get     'x-content-type-options': 'nosniff',
+20 silly get     'x-frame-options': 'deny',
+20 silly get     'x-xss-protection': '1; mode=block',
+20 silly get     'x-runtime-rack': '0.011672',
+20 silly get     'content-encoding': 'gzip',
+20 silly get     'x-github-request-id': 'E2B6:8857:1A1AE656:274FDE45:59DB2994' } ]
+21 silly fetchPackageMetaData Error: Not Found : yillkid
+21 silly fetchPackageMetaData     at makeError (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:264:12)
+21 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:252:14)
+21 silly fetchPackageMetaData     at /usr/share/npm/node_modules/npm-registry-client/lib/request.js:178:7
+21 silly fetchPackageMetaData     at Gunzip.onEnd (zlib.js:227:5)
+21 silly fetchPackageMetaData     at emitNone (events.js:72:20)
+21 silly fetchPackageMetaData     at Gunzip.emit (events.js:166:7)
+21 silly fetchPackageMetaData     at endReadableNT (_stream_readable.js:923:12)
+21 silly fetchPackageMetaData     at nextTickCallbackWith2Args (node.js:458:9)
+21 silly fetchPackageMetaData     at process._tickCallback (node.js:372:17)
+21 silly fetchPackageMetaData  error for ffi { [Error: Not Found : yillkid] pkgid: 'yillkid', statusCode: 404, code: 'E404' }
+22 silly rollbackFailedOptional Starting
+23 silly rollbackFailedOptional Finishing
+24 silly runTopLevelLifecycles Starting
+25 silly runTopLevelLifecycles Finishing
+26 silly install printInstalled
+27 verbose stack Error: Not Found : yillkid
+27 verbose stack     at makeError (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:264:12)
+27 verbose stack     at CachingRegistryClient.<anonymous> (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:252:14)
+27 verbose stack     at /usr/share/npm/node_modules/npm-registry-client/lib/request.js:178:7
+27 verbose stack     at Gunzip.onEnd (zlib.js:227:5)
+27 verbose stack     at emitNone (events.js:72:20)
+27 verbose stack     at Gunzip.emit (events.js:166:7)
+27 verbose stack     at endReadableNT (_stream_readable.js:923:12)
+27 verbose stack     at nextTickCallbackWith2Args (node.js:458:9)
+27 verbose stack     at process._tickCallback (node.js:372:17)
+28 verbose statusCode 404
+29 verbose pkgid yillkid
+30 verbose cwd /home/ubuntu/iotaproxy
+31 error Linux 4.10.0-36-generic
+32 error argv "/usr/bin/nodejs" "/usr/bin/npm" "install" "ffi" "-g" "--registry=https://github.com/yillkid/node-ffi"
+33 error node v4.7.2
+34 error npm  v3.5.2
+35 error code E404
+36 error 404 Not Found : yillkid
+37 error 404
+38 error 404 'yillkid' is not in the npm registry.
+39 error 404 You should bug the author to publish it (or use the name yourself!)
+40 error 404 Note that you can also install from a
+41 error 404 tarball, folder, http url, or git url.
+42 verbose exit [ 1, true ]
