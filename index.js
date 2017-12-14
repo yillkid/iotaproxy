@@ -11,9 +11,9 @@ var iotaProxy = require('./lib/iotaproxy.js');
 
 iotaProxy.start(
   {
-    host: 'http://node0.puyuma.org',
-    port: 14265,
-    localPort: 14266,
+    host: 'http://iota.bitfinex.com',
+    port: 80,
+    localPort: 14265,
     overrideAttachToTangle: true,
     timeout: 15
   }
